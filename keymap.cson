@@ -60,7 +60,7 @@
   'ctrl-x ctrl-f': 'application:open-file'
   'ctrl-shift-t': 'fuzzy-finder:toggle-file-finder'
   # tab/buffers
-  'ctrl-x b': 'fuzzy-finder:toggle-buffer-finder'
+  'ctrl-x ': 'fuzzy-finder:toggle-buffer-finder'
   # completion
   'alt-/': 'autocomplete:toggle'
   'alt-x': 'command-palette:toggle'
@@ -68,7 +68,9 @@
   # application
   'ctrl-g': 'core:cancel'
   'ctrl-x k': 'pane:close'
-  'ctrl-x ctrl-c': 'application:quit'
+  'ctrl-x ctrl-c': 'core:close'
+
+  #'ctrl-x ctrl-c': 'application:quit'
   # other
    # ctrl-t           find any file in the project
    # ctrl-,           open settings view
@@ -78,7 +80,7 @@
    # ctrl-+ ctrl--    zoom/unzoom
 
   # NON Emacs bindings - IDE/browser like
-  'ctrl-b': 'bookmarks:toggle-bookmark'
+  #'ctrl-b': 'bookmarks:toggle-bookmark'
   'ctrl-shift-b': 'bookmarks:view-all'
 
 '.platform-linux atom-text-editor':
